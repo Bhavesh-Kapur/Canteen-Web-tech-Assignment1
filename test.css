@@ -1,0 +1,19 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+.background-image {
+    background-image: url('./img/The-Canteen-logo.png');
+    background-size: cover;
+    background-position: center;
+    height: 100vh; /* 100% of the viewport height */
+    width: 100%;
+}
+
+.content {
+    position: relative;
+    top: -100vh; /* Move the content up by the height of the image */
+    padding: 2rem;
+    box-sizing: border-box;
+}
