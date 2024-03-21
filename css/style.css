@@ -862,13 +862,14 @@ z-index: 1001;
   text-align: center;
   margin-bottom: 1.5rem;
 }
-.shop-content{
+.shop-content{  
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(220px, auto));
+  grid-template-columns: repeat(auto-fit, minmax(250px, auto));
   gap: 1.5rem;
 }
 .product-box{
   position: relative;
+
 }
 .product-box:hover{
   padding: 10px;
